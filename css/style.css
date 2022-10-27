@@ -1,0 +1,103 @@
+body{
+    background: var(--primary-gradient);
+}
+.nav-link{
+    color: var(--primary);
+}
+.nav-link:hover{
+color: var(--primary-dark);
+}
+.nav-link.active{
+    color: var(--secondary-dark);
+}
+.navbar-nav .dropdown-menu {
+    left: unset;
+    right: 0;
+}
+.dropdown-item{
+    color: var(--primary);
+}
+.dropdown-item:hover{
+    color: var(--primary);
+    background-color: var(--primary-extra-light);
+}
+.logo{
+    height: 40px;
+}
+.mainContent{
+    padding: 100px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 70vh;
+    background-image: url("../img/myPhoto.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+.cta a{
+    margin-right: 16px;
+}
+.projectsArea{
+    padding: 200px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.circle{
+    background-color: var(--Primary);
+    border-radius: 50%;
+    color: var(--Gray-light);
+    text-align: center;
+    padding: 25px;
+    width: 200px;
+    height: 200px;
+}
+.circle h3{
+    font-weight: 700;
+    font-size: 75px;
+}
+.circle h4{
+    font-weight: 400;
+    font-size: 20px;
+}
+.projectImages{
+    padding: 20px;
+}
+footer{
+    margin-top: 100px;
+    padding: 30px;
+    text-align: center;
+    background: var(--Primary-gradient-rev);
+}
+
+/* background */
+.bgSecondary{
+    background-color: var(--Secondary);
+}
+.bgGrayLight{
+    background-color: var(--Gray-light);
+}
+.bgwhite{
+    background-color: white;
+}
+/* btn */
+.btn{
+    border-radius: 70px;
+    padding: 15px 25px;
+}
+.btn-primary{
+    background-color: var(--Primary);
+    border: none;
+}
+.btn-primary:hover{
+    background-color: var(--Primary-light);
+}
+.btn-secondary{
+    background-color: var(--Secondary);
+    border: none;
+}
+.btn-secondary:hover{
+    background-color: var(--Seconday-light);
+}
